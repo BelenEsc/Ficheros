@@ -9,9 +9,7 @@ public class AccesoFichero {
 
 		LeerFichero leerFichero = new LeerFichero();
 		leerFichero.lee();
-
 	}
-
 }
 
 class LeerFichero {
@@ -44,7 +42,6 @@ class LeerFichero {
 
 		} catch (IOException e) {
 			System.out.println("no hay archivo");
-
 		} finally {
 			try {
 				archivo.close();
